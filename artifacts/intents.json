@@ -1,0 +1,273 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "age",
+      "patterns": ["How old are you?", "What's your age?", "Age?"],
+      "responses": ["I'm just a program, so I don't have an age.", "I exist outside the concept of age!"],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": ["What's your name?", "Do you have a name?", "Name?"],
+      "responses": ["I'm a Moviebot, so I don't have a personal name.", "I'm known as a Moviebot, no personal name here!"],
+      "context_set": ""
+    },
+    {
+      "tag": "movie_suggestion",
+      "patterns": ["Can you suggest a movie?", "I need a movie recommendation", "What movie should I watch?"],
+      "responses": ["Sure! How about {movie_title}?", "Consider watching {movie_title}. It's great!", "I recommend {movie_title}. Enjoy!"],
+      "context_set": ""
+    },
+    {
+      "tag": "genre_preference",
+      "patterns": ["Do you have any genre preferences?", "What kind of movies do you like?", "Favorite movie genres?"],
+      "responses": ["I can suggest movies from various genres like action, comedy, drama, and more.", "I can recommend movies based on your preferred genres. Let me know what you like!"],
+      "context_set": ""
+    },
+    {
+      "tag": "actor_preference",
+      "patterns": ["Any favorite actors or actresses?", "Do you have a favorite actor?", "Who's your favorite actor?"],
+      "responses": ["I can suggest movies featuring specific actors or actresses. Just let me know who you like!", "Tell me your favorite actor, and I'll recommend movies starring them."],
+      "context_set": ""
+    },
+    {
+      "tag": "movie_request",
+      "patterns": [
+          "tell me a movie",
+          "give me a movie",
+          "suggest a movie",
+          "recommend a movie",
+          "movie suggestion"
+      ],
+      "responses": [
+          "You should watch {movie_title}!"
+      ]
+  }
+  ],
+  "genres": {
+    "Action": [
+      {"title": "Singham", "language": "Hindi"},
+      {"title": "War", "language": "Hindi"},
+      {"title": "Baahubali: The Beginning", "language": "Telugu"},
+      {"title": "Bang Bang!", "language": "Hindi"},
+      {"title": "Kick", "language": "Hindi"},
+      {"title": "Dabangg", "language": "Hindi"},
+      {"title": "Rowdy Rathore", "language": "Hindi"},
+      {"title": "Gunday", "language": "Hindi"},
+      {"title": "Baaghi", "language": "Hindi"},
+      {"title": "Simmba", "language": "Hindi"}
+    ],
+    "Horror": [
+      {"title": "Raaz", "language": "Hindi"},
+      {"title": "Stree", "language": "Hindi"},
+      {"title": "Bhoot", "language": "Hindi"},
+      {"title": "Pari", "language": "Hindi"},
+      {"title": "1920", "language": "Hindi"},
+      {"title": "Ek Thi Daayan", "language": "Hindi"},
+      {"title": "1920: Evil Returns", "language": "Hindi"},
+      {"title": "Ragini MMS", "language": "Hindi"},
+      {"title": "Haunted - 3D", "language": "Hindi"},
+      {"title": "Tumbbad", "language": "Hindi"}
+    ],
+    "Thriller": [
+      {"title": "Kahaani", "language": "Hindi"},
+      {"title": "Talaash", "language": "Hindi"},
+      {"title": "Gupt", "language": "Hindi"},
+      {"title": "Andhadhun", "language": "Hindi"},
+      {"title": "Drishyam", "language": "Hindi"},
+      {"title": "Badlapur", "language": "Hindi"},
+      {"title": "A Wednesday!", "language": "Hindi"},
+      {"title": "Special 26", "language": "Hindi"},
+      {"title": "Ugly", "language": "Hindi"},
+      {"title": "Don 2", "language": "Hindi"}
+    ],
+    "Western": [
+      {"title": "Sholay", "language": "Hindi"},
+      {"title": "Once Upon a Time in Mumbaai", "language": "Hindi"},
+      {"title": "Gangs of Wasseypur", "language": "Hindi"},
+      {"title": "Lagaan", "language": "Hindi"},
+      {"title": "Django Unchained", "language": "English"},
+      {"title": "The Magnificent Seven", "language": "English"},
+      {"title": "A Fistful of Dollars", "language": "English"},
+      {"title": "Butch Cassidy and the Sundance Kid", "language": "English"},
+      {"title": "The Good, the Bad and the Ugly", "language": "English"},
+      {"title": "The Revenant", "language": "English"}
+    ],
+    "Drama": [
+      {"title": "Piku", "language": "Hindi"},
+      {"title": "Queen", "language": "Hindi"},
+      {"title": "Dil Chahta Hai", "language": "Hindi"},
+      {"title": "Taare Zameen Par", "language": "Hindi"},
+      {"title": "3 Idiots", "language": "Hindi"},
+      {"title": "Anand", "language": "Hindi"},
+      {"title": "Masaan", "language": "Hindi"},
+      {"title": "October", "language": "Hindi"},
+      {"title": "Bajrangi Bhaijaan", "language": "Hindi"},
+      {"title": "Lunchbox", "language": "Hindi"}
+    ],
+    "Fantasy": [
+      {"title": "Ra.One", "language": "Hindi"},
+      {"title": "Krrish", "language": "Hindi"},
+      {"title": "Bhool Bhulaiyaa", "language": "Hindi"},
+      {"title": "Paheli", "language": "Hindi"},
+      {"title": "Fan", "language": "Hindi"},
+      {"title": "Barfi!", "language": "Hindi"},
+      {"title": "Bhoothnath", "language": "Hindi"},
+      {"title": "Luka Chuppi", "language": "Hindi"},
+      {"title": "PK", "language": "Hindi"},
+      {"title": "Tumbbad", "language": "Hindi"}
+    ],
+    "Adventure": [
+      {"title": "Dilwale Dulhania Le Jayenge", "language": "Hindi"},
+      {"title": "Swades", "language": "Hindi"},
+      {"title": "Chennai Express", "language": "Hindi"},
+      {"title": "Dil Se..", "language": "Hindi"},
+      {"title": "Zindagi Na Milegi Dobara", "language": "Hindi"},
+      {"title": "Dhoom 3", "language": "Hindi"},
+      {"title": "Jab Tak Hai Jaan", "language": "Hindi"},
+      {"title": "Kabhi Khushi Kabhie Gham", "language": "Hindi"},
+      {"title": "Bajirao Mastani", "language": "Hindi"},
+      {"title": "Padmaavat", "language": "Hindi"}
+    ],
+    "Romance": [
+      {"title": "DDLJ", "language": "Hindi"},
+      {"title": "Jab We Met", "language": "Hindi"},
+      {"title": "Veer-Zaara", "language": "Hindi"},
+      {"title": "Kabhi Alvida Naa Kehna", "language": "Hindi"},
+      {"title": "Hum Dil De Chuke Sanam", "language": "Hindi"},
+      {"title": "Aashiqui 2", "language": "Hindi"},
+      {"title": "2 States", "language": "Hindi"},
+      {"title": "Yeh Jawaani Hai Deewani", "language": "Hindi"},
+      {"title": "Kuch Kuch Hota Hai", "language": "Hindi"},
+      {"title": "Love Aaj Kal", "language": "Hindi"}
+    ],
+    "Comedy": [
+      {"title": "Hera Pheri", "language": "Hindi"},
+      {"title": "3 Idiots", "language": "Hindi"},
+      {"title": "Welcome", "language": "Hindi"},
+      {"title": "Golmaal: Fun Unlimited", "language": "Hindi"},
+      {"title": "Andaz Apna Apna", "language": "Hindi"},
+      {"title": "Chupke Chupke", "language": "Hindi"},
+      {"title": "Munna Bhai M.B.B.S.", "language": "Hindi"},
+      {"title": "Dhol", "language": "Hindi"},
+      {"title": "PK", "language": "Hindi"},
+      {"title": "Fukrey", "language": "Hindi"}
+    ],
+    "Mystery": [
+      {"title": "Talaash", "language": "Hindi"},
+      {"title": "Kahaani", "language": "Hindi"},
+      {"title": "Andhadhun", "language": "Hindi"},
+      {"title": "Drishyam", "language": "Hindi"},
+      {"title": "Gupt", "language": "Hindi"},
+      {"title": "Rahasya", "language": "Hindi"},
+      {"title": "Karthik Calling Karthik", "language": "Hindi"},
+      {"title": "Table No. 21", "language": "Hindi"},
+      {"title": "Wazir", "language": "Hindi"},
+      {"title": "404: Error Not Found", "language": "Hindi"}
+    ],
+    "Sci-Fi": [
+      {"title": "Koi... Mil Gaya", "language": "Hindi"},
+      {"title": "Krrish", "language": "Hindi"},
+      {"title": "Robot", "language": "Hindi"},
+      {"title": "Krrish 3", "language": "Hindi"},
+      {"title": "Ra.One", "language": "Hindi"},
+      {"title": "PK", "language": "Hindi"},
+      {"title": "Love Story 2050", "language": "Hindi"},
+      {"title": "Mohenjo Daro", "language": "Hindi"},
+      {"title": "Tumbbad", "language": "Hindi"},
+      {"title": "Bhavesh Joshi Superhero", "language": "Hindi"}
+    ],
+    "Animation": [
+      {"title": "Hanuman", "language": "Hindi"},
+      {"title": "Arjun: The Warrior Prince", "language": "Hindi"},
+      {"title": "Delhi Safari", "language": "Hindi"},
+      {"title": "Motu Patlu: King of Kings", "language": "Hindi"},
+      {"title": "Chhota Bheem: Himalayan Adventure", "language": "Hindi"},
+      {"title": "My Friend Ganesha", "language": "Hindi"},
+      {"title": "Bal Ganesh", "language": "Hindi"},
+      {"title": "Roadside Romeo", "language": "Hindi"},
+      {"title": "Toonpur Ka Superrhero", "language": "Hindi"},
+      {"title": "Krishna Aur Kans", "language": "Hindi"}
+    ],
+    "Supernatural": [
+      {"title": "Bhool Bhulaiyaa", "language": "Hindi"},
+      {"title": "Raaz", "language": "Hindi"},
+      {"title": "Pari", "language": "Hindi"},
+      {"title": "1920", "language": "Hindi"},
+      {"title": "Ek Thi Daayan", "language": "Hindi"},
+      {"title": "Phillauri", "language": "Hindi"},
+      {"title": "Tumbbad", "language": "Hindi"},
+      {"title": "Go Goa Gone", "language": "Hindi"},
+      {"title": "Roohi", "language": "Hindi"},
+      {"title": "Naina", "language": "Hindi"}
+    ],
+    "Religious": [
+      {"title": "OMG – Oh My God!", "language": "Hindi"},
+      {"title": "PK", "language": "Hindi"},
+      {"title": "Oh My God", "language": "Hindi"},
+      {"title": "Goliyon Ki Raasleela Ram-Leela", "language": "Hindi"},
+      {"title": "Bajrangi Bhaijaan", "language": "Hindi"},
+      {"title": "Amar Akbar Anthony", "language": "Hindi"},
+      {"title": "Ram Teri Ganga Maili", "language": "Hindi"},
+      {"title": "Sant Tukaram", "language": "Hindi"},
+      {"title": "Satyam Shivam Sundaram", "language": "Hindi"},
+      {"title": "Jai Santoshi Maa", "language": "Hindi"}
+    ],
+    "Biography": [
+      {"title": "Bhaag Milkha Bhaag", "language": "Hindi"},
+      {"title": "Dangal", "language": "Hindi"},
+      {"title": "MS Dhoni: The Untold Story", "language": "Hindi"},
+      {"title": "The Dirty Picture", "language": "Hindi"},
+      {"title": "Paan Singh Tomar", "language": "Hindi"},
+      {"title": "Neerja", "language": "Hindi"},
+      {"title": "Manjhi: The Mountain Man", "language": "Hindi"},
+      {"title": "Mary Kom", "language": "Hindi"},
+      {"title": "Sanju", "language": "Hindi"},
+      {"title": "Gunjan Saxena: The Kargil Girl", "language": "Hindi"}
+    ],
+    "Suspense": [
+      {"title": "Talaash", "language": "Hindi"},
+      {"title": "Badla", "language": "Hindi"},
+      {"title": "Kahani", "language": "Hindi"},
+      {"title": "Gupt", "language": "Hindi"},
+      {"title": "Rustom", "language": "Hindi"},
+      {"title": "A Wednesday", "language": "Hindi"},
+      {"title": "Manorama Six Feet Under", "language": "Hindi"},
+      {"title": "Drishyam", "language": "Hindi"},
+      {"title": "Ek Hasina Thi", "language": "Hindi"},
+      {"title": "Ugly", "language": "Hindi"}
+    ]
+
+  }
+}

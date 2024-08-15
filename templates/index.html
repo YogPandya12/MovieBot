@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieBot</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to MovieBot</h1>
+        <p>Your personalized movie suggestion assistant</p>
+    </header>
+    <div class="chat-container">
+        <div class="chat-box" id="chat-box"></div>
+        <form id="chat-form" action="/chat" method="post">
+            <input type="text" id="user_input" name="user_input" placeholder="Type a message..." required>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy; 2024 MovieBot. All rights reserved.</p>
+    </footer>
+    <script>
+        const form = document.getElementById('chat-form');
+        const chatBox = document.getElementById('chat-box');
+        
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const userInput = document.getElementById('user_input').value;
+            
+            // Append user message to chat
+            const userMessage = document.createElement('div');
+            userMessage.classList.add('user-message');
+            userMessage.innerText = userInput;
+            chatBox.appendChild(userMessage);
+            
+            // Clear input
+            document.getElementById('user_input').value = '';
+            
+            const response = await fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ user_input: userInput }),
+            });
+            const result = await response.json();
+            
+            // Append bot response to chat
+            const botMessage = document.createElement('div');
+            botMessage.classList.add('bot-message');
+            botMessage.innerText = result.reply;
+            chatBox.appendChild(botMessage);
+            
+            chatBox.scrollTop = chatBox.scrollHeight;  // Auto-scroll to the bottom
+        });
+    </script>
+</body>
+</html>

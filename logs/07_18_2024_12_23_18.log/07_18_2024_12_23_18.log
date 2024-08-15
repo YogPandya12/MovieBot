@@ -1,0 +1,32 @@
+[2024-07-18 12:23:20,063] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} WARNING -  * Debugger is active!
+[2024-07-18 12:23:20,067] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO -  * Debugger PIN: 515-305-720
+[2024-07-18 12:23:21,749] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - 127.0.0.1 - - [18/Jul/2024 12:23:21] "GET / HTTP/1.1" 200 -
+[2024-07-18 12:23:21,971] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - 127.0.0.1 - - [18/Jul/2024 12:23:21] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+[2024-07-18 12:23:25,535] {D:\MovieBot_Flask\src\components\train_model\model.py:17} INFO - Init of neural net function
+[2024-07-18 12:23:25,536] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:18} INFO - Tokenize the words of the given sentence
+[2024-07-18 12:23:25,543] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 12:23:25,543] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:55} INFO - Return list in the form of binary
+[2024-07-18 12:23:25,546] {D:\MovieBot_Flask\src\components\train_model\model.py:28} INFO - Return the output of the neural net function
+[2024-07-18 12:23:25,547] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - 127.0.0.1 - - [18/Jul/2024 12:23:25] "POST /chat HTTP/1.1" 200 -
+[2024-07-18 12:23:29,991] {D:\MovieBot_Flask\src\components\train_model\model.py:17} INFO - Init of neural net function
+[2024-07-18 12:23:29,991] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:18} INFO - Tokenize the words of the given sentence
+[2024-07-18 12:23:29,991] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 12:23:29,991] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 12:23:29,991] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 12:23:29,991] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 12:23:29,991] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:55} INFO - Return list in the form of binary
+[2024-07-18 12:23:29,992] {D:\MovieBot_Flask\src\components\train_model\model.py:28} INFO - Return the output of the neural net function
+[2024-07-18 12:23:29,992] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - 127.0.0.1 - - [18/Jul/2024 12:23:29] "POST /chat HTTP/1.1" 200 -
+[2024-07-18 12:23:39,610] {D:\MovieBot_Flask\src\components\train_model\model.py:17} INFO - Init of neural net function
+[2024-07-18 12:23:39,611] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:18} INFO - Tokenize the words of the given sentence
+[2024-07-18 12:23:39,611] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 12:23:39,611] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 12:23:39,611] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 12:23:39,612] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 12:23:39,612] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:55} INFO - Return list in the form of binary
+[2024-07-18 12:23:39,612] {D:\MovieBot_Flask\src\components\train_model\model.py:28} INFO - Return the output of the neural net function
+[2024-07-18 12:23:39,612] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 12:23:39,612] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 12:23:39,612] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 12:23:39,613] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - 127.0.0.1 - - [18/Jul/2024 12:23:39] "POST /chat HTTP/1.1" 200 -
+[2024-07-18 12:24:20,337] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO -  * Detected change in 'D:\\MovieBot_Flask\\application.py', reloading

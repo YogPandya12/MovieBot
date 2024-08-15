@@ -1,0 +1,19 @@
+[2024-07-18 11:23:58,975] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} WARNING -  * Debugger is active!
+[2024-07-18 11:23:58,986] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO -  * Debugger PIN: 515-305-720
+[2024-07-18 11:23:59,256] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - 127.0.0.1 - - [18/Jul/2024 11:23:59] "GET / HTTP/1.1" 200 -
+[2024-07-18 11:23:59,653] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - 127.0.0.1 - - [18/Jul/2024 11:23:59] "GET /static/styles.css HTTP/1.1" 200 -
+[2024-07-18 11:24:04,943] {D:\MovieBot_Flask\src\components\train_model\model.py:17} INFO - Init of neural net function
+[2024-07-18 11:24:04,952] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:18} INFO - Tokenize the words of the given sentence
+[2024-07-18 11:24:04,964] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 11:24:04,964] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:55} INFO - Return list in the form of binary
+[2024-07-18 11:24:05,267] {D:\MovieBot_Flask\src\components\train_model\model.py:28} INFO - Return the output of the neural net function
+[2024-07-18 11:24:05,285] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - 127.0.0.1 - - [18/Jul/2024 11:24:05] "POST /chat HTTP/1.1" 200 -
+[2024-07-18 11:24:14,217] {D:\MovieBot_Flask\src\components\train_model\model.py:17} INFO - Init of neural net function
+[2024-07-18 11:24:14,218] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:18} INFO - Tokenize the words of the given sentence
+[2024-07-18 11:24:14,218] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 11:24:14,218] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 11:24:14,218] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 11:24:14,218] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:33} INFO - Returning the list of words
+[2024-07-18 11:24:14,219] {D:\MovieBot_Flask\src\components\train_model\nltk_utils.py:55} INFO - Return list in the form of binary
+[2024-07-18 11:24:14,221] {D:\MovieBot_Flask\src\components\train_model\model.py:28} INFO - Return the output of the neural net function
+[2024-07-18 11:24:14,223] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - 127.0.0.1 - - [18/Jul/2024 11:24:14] "POST /chat HTTP/1.1" 200 -

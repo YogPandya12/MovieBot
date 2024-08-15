@@ -1,0 +1,5 @@
+[2024-07-24 17:07:48,348] {D:\Code\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} WARNING -  * Debugger is active!
+[2024-07-24 17:07:48,360] {D:\Code\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO -  * Debugger PIN: 347-454-128
+[2024-07-24 17:08:59,453] {D:\Code\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - 127.0.0.1 - - [24/Jul/2024 17:08:59] "GET / HTTP/1.1" 200 -
+[2024-07-24 17:08:59,683] {D:\Code\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - 127.0.0.1 - - [24/Jul/2024 17:08:59] "GET /static/styles.css HTTP/1.1" 200 -
+[2024-07-24 17:08:59,716] {D:\Code\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - 127.0.0.1 - - [24/Jul/2024 17:08:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -

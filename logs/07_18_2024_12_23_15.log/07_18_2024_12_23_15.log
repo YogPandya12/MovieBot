@@ -1,0 +1,7 @@
+[2024-07-18 12:23:16,302] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.125.212:5000
+[2024-07-18 12:23:16,302] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO - [33mPress CTRL+C to quit[0m
+[2024-07-18 12:23:16,305] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO -  * Restarting with stat
+[2024-07-18 12:24:20,573] {D:\MovieBot_Flask\env\lib\site-packages\werkzeug\_internal.py:97} INFO -  * Restarting with stat
