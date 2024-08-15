@@ -1,3 +1,3 @@
 # Movie Bot
-It suggests you movies based on the type of genre the user want.
+The movie suggestion bot recommends movies based on the genre the user prefers.
 
