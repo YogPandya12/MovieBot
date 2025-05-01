@@ -4,7 +4,6 @@ from inference_pipeline import chat
 application = Flask(__name__)
 app = application
 
-# Route for the home page
 @app.route('/')
 def index():
     return render_template('index.html')
