@@ -39,6 +39,3 @@ Once the application is running, you can interact with the bot through the provi
 - `templates/` and `static/`: Frontend templates and static files for the web interface
 - `Dockerfile` and `docker-compose.yml`: Docker configurations for containerized deployment
 
-## License
-
-This project is licensed under the MIT License.
